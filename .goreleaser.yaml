@@ -45,7 +45,7 @@ changelog:
       - "^test:"
 
 brews:
-  - name: hnews
+  - name: lucas-cli
     repository:
       owner: iamlucasvieira
       name: homebrew-tap
