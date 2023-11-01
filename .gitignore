@@ -1,0 +1,6 @@
+# Ignore everything inside .idea
+.idea/*
+
+dist/
+
+.env
