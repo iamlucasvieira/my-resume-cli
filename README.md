@@ -105,7 +105,7 @@ go install github.com/iamlucasvieira/my-resume-cli@latest
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-With `my-resume-clu` installed, you only need to run the command `lucas-cli` on your terminal.
+With `my-resume-cli` installed, you only need to run the command `lucas-cli` on your terminal.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
