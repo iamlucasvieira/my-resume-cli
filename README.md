@@ -15,10 +15,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>   -->
 
-<h3 align="center">Hnews</h3>
+<h3 align="center">my-resume-cli</h3>
 
   <p align="center">
-    A simple Hacker News front page reader on your terminal.
+    My resume on your terminal.
     <!--<a href="https://github.com/github_username/hnews"><strong>Explore the docs »</strong></a>-->
     <br />
     <a href="https://github.com/github_username/hnews">View Demo</a>
@@ -61,9 +61,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Hnews is a simple [Hacker News][hn-url] front page reader on your terminal.
+My-resume-cli is a simple CLI that shows my resume on your terminal.
 
-![hnews-demo][product-demo]
+Just install it, and run `lucas-cli`
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -85,8 +85,7 @@ To get `hnews` up and running follow these simple steps.
 #### MacOS (Homebrew)
 For MacOS users, you can install `hnews` using [Homebrew](https://brew.sh/).
 ```sh
-brew tap iamlucasvieira/hnews
-brew install hnews
+brew install iamlucasvieira/tap/lucas-cli
 ```
 
 #### Windows/Linux/MacOS (Go)
@@ -94,7 +93,7 @@ brew install hnews
 You can also install `hnews` using [Go](https://golang.org/).
 
 ```sh
-go install github.com/iamlucasvieira/hnews@latest
+go install github.com/iamlucasvieira/my-resume-cli@latest
 ```
 
 
@@ -106,7 +105,7 @@ go install github.com/iamlucasvieira/hnews@latest
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-With `hnews` installed, you only need to run the command `hnews` on your terminal.
+With `my-resume-clu` installed, you only need to run the command `lucas-cli` on your terminal.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -153,8 +152,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Lucas Vieira dos Santos - [Email](mailto:lucas6eng@gmail.com)
-
-Project Link: [https://github.com/iamlucasvieira/hnews](https://github.com/iamlucasvieira/hnews)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
