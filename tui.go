@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/bubbles/list"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
@@ -63,6 +64,17 @@ func initialModel() model {
 		subList := m.subLists[i] // Get the value from the map
 		if item, ok := v.(item); ok {
 			subList.Title = item.Title()
+
+			keysExtra := func() []key.Binding {
+				return []key.Binding{
+					key.NewBinding(
+						key.WithKeys("backspace"),
+						key.WithHelp("backspace", "back"),
+					),
+				}
+			}
+			subList.AdditionalShortHelpKeys = keysExtra
+			subList.AdditionalFullHelpKeys = keysExtra
 			m.subLists[i] = subList
 		}
 	}
